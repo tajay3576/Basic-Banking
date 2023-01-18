@@ -1,0 +1,62 @@
+body {
+  background-image: url('Images/coin-jar.jpg');
+}
+#title{
+    background-color: #d5b9b2;
+}
+.title-image{
+    width: 30%;
+    position: absolute;
+    right: 15%;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+  .navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-family: "Montserrat";
+    font-weight: light;
+    font-size: 1rem;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat";
+    font-weight: light;
+    font-size: 1rem;
+  }
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  #footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 5%;
+  }
+
+  /* footer */
+  .social-links{
+    color: black;
+  }
+
+  .social-links:hover{
+    color: #d5b9b2;
+  }
+
+  @media (max-width:992px){
+    #title{
+      text-align: center;
+    }
+    .title-image{
+      position:static ;
+      width:60%;
+    }
+  }
